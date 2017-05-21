@@ -1,0 +1,40 @@
+c:\users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\bin\Debug\Hasta Takip Giriş.exe.config
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\bin\Debug\Hasta Takip Giriş.exe
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\bin\Debug\Hasta Takip Giriş.pdb
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta Takip Giriş.csprojResolveAssemblyReference.cache
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.Admin.resources
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.Giriş.resources
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.Properties.Resources.resources
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta Takip Giriş.csproj.GenerateResource.Cache
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta Takip Giriş.exe
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta Takip Giriş.pdb
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.User.resources
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.DoktorGüncelle.resources
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.HastaGüncelle.resources
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.UygulamaGüncelle.resources
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.DoktorGörüntüle.resources
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.HastaGörüntüle.resources
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.UygulamaGörüntüle.resources
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.DoktorBul.resources
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.HastaBul.resources
+C:\Users\emree_000\documents\visual studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.UygulamaBul.resources
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\bin\Debug\Hasta Takip Giriş.exe.config
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta Takip Giriş.exe
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta Takip Giriş.pdb
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\bin\Debug\Hasta Takip Giriş.exe
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\bin\Debug\Hasta Takip Giriş.pdb
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta Takip Giriş.csprojResolveAssemblyReference.cache
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.Admin.resources
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.DoktorBul.resources
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.DoktorGörüntüle.resources
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.DoktorGüncelle.resources
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.HastaBul.resources
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.HastaGörüntüle.resources
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.HastaGüncelle.resources
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.User.resources
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.UygulamaBul.resources
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.UygulamaGörüntüle.resources
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.UygulamaGüncelle.resources
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.Giriş.resources
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta_Takip_Giriş.Properties.Resources.resources
+D:\Belgeler\Visual Studio 2013\Projects\Hasta Takip Giriş\Hasta Takip Giriş\obj\Debug\Hasta Takip Giriş.csproj.GenerateResource.Cache

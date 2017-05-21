@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3C5A88DC-BE64-4582-81C3-49C2C9B40020}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hasta_Takip_Giriş</RootNamespace>
+    <AssemblyName>Hasta Takip Giriş</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DisciHastaLinq.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DisciHastaLinq.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorBul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoktorBul.Designer.cs">
+      <DependentUpon>DoktorBul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorGörüntüle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoktorGörüntüle.Designer.cs">
+      <DependentUpon>DoktorGörüntüle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorGüncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoktorGüncelle.Designer.cs">
+      <DependentUpon>DoktorGüncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giriş.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giriş.Designer.cs">
+      <DependentUpon>Giriş.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaBul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HastaBul.Designer.cs">
+      <DependentUpon>HastaBul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaGörüntüle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HastaGörüntüle.Designer.cs">
+      <DependentUpon>HastaGörüntüle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaGüncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HastaGüncelle.Designer.cs">
+      <DependentUpon>HastaGüncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UygulamaBul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UygulamaBul.Designer.cs">
+      <DependentUpon>UygulamaBul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UygulamaGörüntüle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UygulamaGörüntüle.Designer.cs">
+      <DependentUpon>UygulamaGörüntüle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UygulamaGüncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UygulamaGüncelle.Designer.cs">
+      <DependentUpon>UygulamaGüncelle.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoktorBul.resx">
+      <DependentUpon>DoktorBul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoktorGörüntüle.resx">
+      <DependentUpon>DoktorGörüntüle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoktorGüncelle.resx">
+      <DependentUpon>DoktorGüncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HastaBul.resx">
+      <DependentUpon>HastaBul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HastaGörüntüle.resx">
+      <DependentUpon>HastaGörüntüle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HastaGüncelle.resx">
+      <DependentUpon>HastaGüncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UygulamaBul.resx">
+      <DependentUpon>UygulamaBul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UygulamaGörüntüle.resx">
+      <DependentUpon>UygulamaGörüntüle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UygulamaGüncelle.resx">
+      <DependentUpon>UygulamaGüncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DisciHastaLinq.dbml.layout">
+      <DependentUpon>DisciHastaLinq.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Giriş.resx">
+      <DependentUpon>Giriş.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="DisciHastaLinq.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DisciHastaLinq.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\DataSources\DisciHastaLinqDataContext.datasource" />
+    <None Include="Properties\DataSources\Doktor.datasource" />
+    <None Include="Properties\DataSources\Hasta.datasource" />
+    <None Include="Properties\DataSources\Uygulama.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

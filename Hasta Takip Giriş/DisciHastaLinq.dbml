@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DisciHasta" Class="DisciHastaLinqDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=&quot;C:\Program Files (x86)\Microsoft SQL Server\MSSQL11.SQLEXPRESS\MSSQL\DATA\DisciHasta.mdf&quot;;Integrated Security=True;Connect Timeout=30" SettingsObjectName="Hasta_Takip_Giriş.Properties.Settings" SettingsPropertyName="DisciHastaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Doktor" Member="Doktors">
+    <Type Name="Doktor">
+      <Column Name="idDoktor" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Doktor_isim" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Doktor_soyİsim" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Doktor_dogumTarihi" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Doktor_baslagıcTarihi" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Doktor_maas" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Association Name="Doktor_Uygulama" Member="Uygulamas" ThisKey="idDoktor" OtherKey="Uygulama_idDoktor" Type="Uygulama" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Uygulama" Member="Uygulamas">
+    <Type Name="Uygulama">
+      <Column Name="Uygulama_idDoktor" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Uygulama_idHasta" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Uygulama_tarihSaat" Type="System.DateTime" DbType="DateTime" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="Uygulama_açıklama" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Uygulama_fiyat" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Association Name="Doktor_Uygulama" Member="Doktor" ThisKey="Uygulama_idDoktor" OtherKey="idDoktor" Type="Doktor" IsForeignKey="true" />
+      <Association Name="Hasta_Uygulama" Member="Hasta" ThisKey="Uygulama_idHasta" OtherKey="idHasta" Type="Hasta" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Hasta" Member="Hastas">
+    <Type Name="Hasta">
+      <Column Name="idHasta" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Hasta_isim" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Hasta_soyİsim" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Hasta_dogumTarihi" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Hasta_basvuruTarihi" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Hasta_telefon" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Association Name="Hasta_Uygulama" Member="Uygulamas" ThisKey="idHasta" OtherKey="Uygulama_idHasta" Type="Uygulama" />
+    </Type>
+  </Table>
+</Database>

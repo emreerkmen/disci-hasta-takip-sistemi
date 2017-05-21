@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DisciHastaLinq">
+  <DataContextMoniker Name="/DisciHastaLinqDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d4aa5ea7-9658-41ba-84c6-7116bf536816" absoluteBounds="0.5, 0.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/DisciHastaLinqDataContext/Doktor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="19409da3-340d-4474-9ea7-c7dbf10abe20" absoluteBounds="0.515, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c59c7755-cb81-488f-be68-eff9faceb657" absoluteBounds="3.375, 3.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DisciHastaLinqDataContext/Uygulama" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4057db70-5caa-4534-a04a-7ada2b0e244e" absoluteBounds="3.3899999999999997, 3.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.5 : 2.7131982421875); (1.5 : 4.38544840494792); (3.375 : 4.38544840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DisciHastaLinqDataContext/Doktor/Doktor_Uygulama" />
+      <nodes>
+        <classShapeMoniker Id="d4aa5ea7-9658-41ba-84c6-7116bf536816" />
+        <classShapeMoniker Id="c59c7755-cb81-488f-be68-eff9faceb657" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7f2fd48a-035c-4a3a-be2b-3aaf7c5b1a69" absoluteBounds="6.375, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/DisciHastaLinqDataContext/Hasta" />
+      <nestedChildShapes>
+        <elementListCompartment Id="398753ae-a7f4-4bff-bb20-dd99130b9b5c" absoluteBounds="6.39, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.375 : 2.8381982421875); (7.375 : 4.38544840494792); (5.375 : 4.38544840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DisciHastaLinqDataContext/Hasta/Hasta_Uygulama" />
+      <nodes>
+        <classShapeMoniker Id="7f2fd48a-035c-4a3a-be2b-3aaf7c5b1a69" />
+        <classShapeMoniker Id="c59c7755-cb81-488f-be68-eff9faceb657" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
